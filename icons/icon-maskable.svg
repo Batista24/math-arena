@@ -5,8 +5,8 @@
       <stop offset="1" stop-color="#5c0f2e"/>
     </linearGradient>
     <linearGradient id="leaf" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0" stop-color="#ff9cc2"/>
-      <stop offset="1" stop-color="#ffe0ec"/>
+      <stop offset="0" stop-color="#4ad08a"/>
+      <stop offset="1" stop-color="#b8f5cf"/>
     </linearGradient>
     <path id="heart" d="M0 0 C-14 -10 -30 -24 -18 -40 C-10 -50 0 -44 0 -34 C0 -44 10 -50 18 -40 C30 -24 14 -10 0 0 Z"/>
   </defs>
@@ -14,21 +14,21 @@
   <g transform="translate(256 256) scale(.76) translate(-256 -256)">
   
   <!-- tallo -->
-  <path d="M256 262 C250 330 262 384 300 436" fill="none" stroke="#5c0f2e" stroke-width="22" stroke-linecap="round"/>
-  <path d="M256 262 C250 330 262 384 300 436" fill="none" stroke="#f06c9c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M256 262 C250 330 262 384 300 436" fill="none" stroke="#0a3d2c" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 262 C250 330 262 384 300 436" fill="none" stroke="#2fae72" stroke-width="12" stroke-linecap="round"/>
   <!-- cuatro hojas -->
-  <g transform="translate(256 256) scale(3.9)" stroke="#5c0f2e" stroke-width="2.2" stroke-linejoin="round">
+  <g transform="translate(256 256) scale(3.9)" stroke="#0a3d2c" stroke-width="2.2" stroke-linejoin="round">
     <use href="#heart" fill="url(#leaf)" transform="rotate(45)"/>
     <use href="#heart" fill="url(#leaf)" transform="rotate(135)"/>
     <use href="#heart" fill="url(#leaf)" transform="rotate(225)"/>
     <use href="#heart" fill="url(#leaf)" transform="rotate(315)"/>
   </g>
   <!-- nervaduras -->
-  <g transform="translate(256 256)" stroke="#f06c9c" stroke-width="5" stroke-linecap="round" opacity=".85">
+  <g transform="translate(256 256)" stroke="#2fae72" stroke-width="5" stroke-linecap="round" opacity=".85">
     <path d="M0 0 L-70 -70"/><path d="M0 0 L70 -70"/><path d="M0 0 L-70 70"/><path d="M0 0 L70 70"/>
   </g>
   <!-- centro dorado -->
-  <circle cx="256" cy="256" r="17" fill="#ffd23f" stroke="#5c0f2e" stroke-width="6"/>
+  <circle cx="256" cy="256" r="17" fill="#ffd23f" stroke="#0a3d2c" stroke-width="6"/>
 
 </g>
 </svg>

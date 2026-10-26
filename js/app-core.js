@@ -18,12 +18,12 @@
   const HEART = 'M0 0 C-14 -10 -30 -24 -18 -40 C-10 -50 0 -44 0 -34 C0 -44 10 -50 18 -40 C30 -24 14 -10 0 0 Z';
   MA.clover = (size, cls) =>
     `<svg class="${cls || 'clover'}" width="${size}" height="${size}" viewBox="-60 -60 120 130" aria-hidden="true" focusable="false">
-      <path d="M0 0 C-3 30 3 48 16 64" fill="none" stroke="#d6336c" stroke-width="6" stroke-linecap="round"/>
-      <g stroke="#4a1233" stroke-width="2.4" stroke-linejoin="round" fill="#ffb3d1">
+      <path d="M0 0 C-3 30 3 48 16 64" fill="none" stroke="#1b8a5a" stroke-width="6" stroke-linecap="round"/>
+      <g stroke="#0d3b2e" stroke-width="2.4" stroke-linejoin="round" fill="#6fdc9f">
         <path d="${HEART}" transform="rotate(45)"/><path d="${HEART}" transform="rotate(135)"/>
         <path d="${HEART}" transform="rotate(225)"/><path d="${HEART}" transform="rotate(315)"/>
       </g>
-      <circle r="6" fill="#ffd23f" stroke="#4a1233" stroke-width="2.4"/>
+      <circle r="6" fill="#ffd23f" stroke="#0d3b2e" stroke-width="2.4"/>
     </svg>`;
 
   /* ---------- almacenamiento (en este dispositivo) ---------- */

@@ -1,5 +1,5 @@
 /* Math Arena - funciona sin internet después de la primera visita */
-const CACHE = 'math-arena-v2';
+const CACHE = 'math-arena-v3';
 const FILES = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
   'js/banco.js', 'js/grados-1-3.js', 'js/grados-4-6.js', 'js/impostor-datos.js',
