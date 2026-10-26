@@ -118,7 +118,7 @@
   }
 
   /* ====================== 5) RULETA ====================== */
-  const PAL = [['#1b8a5a', '#ffffff'], ['#ffd23f', '#0d3b2e'], ['#2756c5', '#ffffff'], ['#6fdc9f', '#0d3b2e'], ['#e4572e', '#ffffff'], ['#0f6b45', '#ffffff'], ['#f3a712', '#0d3b2e'], ['#8fb8ff', '#0d3b2e']];
+  const PAL = [['#d6336c', '#ffffff'], ['#ffd23f', '#4a1233'], ['#2756c5', '#ffffff'], ['#ffb3d1', '#4a1233'], ['#e4572e', '#ffffff'], ['#a61e4d', '#ffffff'], ['#f3a712', '#4a1233'], ['#8fb8ff', '#4a1233']];
   let R = { mode: 'names', rot: 0, spinning: false, used: [], result: null, noRep: true, q: null, showAns: false };
   const TAU = Math.PI * 2;
   function rItems() {
@@ -201,7 +201,7 @@
       if (i === N - 1 && N > 1 && k === 0) k = 1;
       ctx.beginPath(); ctx.moveTo(0, 0); ctx.arc(0, 0, r, i * seg, (i + 1) * seg); ctx.closePath();
       ctx.fillStyle = PAL[k][0]; ctx.fill();
-      ctx.lineWidth = 2; ctx.strokeStyle = '#0d3b2e'; ctx.stroke();
+      ctx.lineWidth = 2; ctx.strokeStyle = '#4a1233'; ctx.stroke();
       ctx.save();
       ctx.rotate(i * seg + seg / 2);
       ctx.fillStyle = PAL[k][1];
@@ -214,7 +214,7 @@
       ctx.restore();
     }
     ctx.restore();
-    ctx.beginPath(); ctx.arc(cx, cy, 18, 0, TAU); ctx.fillStyle = '#ffd23f'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = '#0d3b2e'; ctx.stroke();
+    ctx.beginPath(); ctx.arc(cx, cy, 18, 0, TAU); ctx.fillStyle = '#ffd23f'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = '#4a1233'; ctx.stroke();
   }
   const mod = (a, m) => ((a % m) + m) % m;
   MA.actions.rMode = (el) => { R.mode = el.getAttribute('data-v'); R.used = []; MA.views.ruleta(); const t = document.querySelector('.tabs .seg.on'); if (t) t.focus(); };
